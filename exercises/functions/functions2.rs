@@ -7,7 +7,7 @@ fn main() {
     call_me(3);
 }
 
-// function arguments types must be annotated
+// function paremeters types must be annotated
 fn call_me(num: u32) {
     for i in 0..num {
         println!("Ring! Call number {}", i + 1);
